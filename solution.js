@@ -15,14 +15,14 @@ const job = "Webdeveloper";
 const age = 40;
 
 
-const person = {
+const profile = {
 firstName: firstName,
 lastName: lastName,
 city: city,
 job: job,
 age: age
 }
-console.log(person);
+console.log(profile);
 
 //5
 console.log(firstName + " " + lastName + " is a " + age + "-year-old "+ job + " who lives in " + city +".");
