@@ -10,14 +10,19 @@ const lastName = "Meyer";
 console.log(firstName, lastName);
 
 //4
+const city ="Berlin";
+const job = "Webdeveloper";
+const age = 40;
+
+
 const person = {
 firstName: firstName,
 lastName: lastName,
-city: "Berlin",
-job: "WebDeveloper",
-age: 40
+city: city,
+job: job,
+age: age
 }
 console.log(person);
 
 //5
-console.log(firstName + " " + lastName + " is a " + person.age + "-year-old "+ person.job + " who lives in " + person.city +".");
+console.log(firstName + " " + lastName + " is a " + age + "-year-old "+ job + " who lives in " + city +".");
